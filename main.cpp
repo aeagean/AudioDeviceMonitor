@@ -1,4 +1,11 @@
-﻿#include "AudioDeviceMonitor.h"
+﻿/**********************************************************
+ * Author: Qt君
+ * 微信公众号: Qt君(首发)
+ * Email:  2088201923@qq.com
+ * QQ交流群: 732271126
+ * LISCENSE: MIT
+ ************************************************************/
+#include "AudioDeviceMonitor.h"
 
 #include <QCoreApplication>
 #include <QDebug>
