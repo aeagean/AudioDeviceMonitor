@@ -16,7 +16,7 @@ public:
     AudioDeviceMonitor();
     virtual ~AudioDeviceMonitor();
 
-    static AudioDeviceMonitor *createOneAudioDeviceMonitor();
+    static AudioDeviceMonitor *createAudioDeviceMonitor();
 
 signals:
     void deviceStateChanged();

@@ -274,7 +274,7 @@ static AudioDeviceMonitor *_createAudioDeviceMonitor()
     return new AudioDeviceMonitor();
 }
 
-AudioDeviceMonitor *AudioDeviceMonitor::createOneAudioDeviceMonitor()
+AudioDeviceMonitor *AudioDeviceMonitor::createAudioDeviceMonitor()
 {
     /* 用于创建独立线程资源 */
     QFuture<AudioDeviceMonitor *> future = QtConcurrent::run(_createAudioDeviceMonitor);
